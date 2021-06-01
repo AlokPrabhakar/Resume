@@ -1,0 +1,52 @@
+@media only screen and (max-width: 600px){
+    
+    .heading > hr{
+        display: none;    
+    }
+    
+    
+
+
+    .lang div:first-child{
+        width:30%;
+        padding-left: 20px;
+        padding-bottom: 5px;
+    }
+    .lang div:last-child{
+        width:70%;
+        /* padding-left: 20px; */
+    }
+    .progressbar{
+        width:90%;
+        height:30px;
+        
+    }
+    .desc-key{
+        font-weight: 500;
+        width:40%;
+        padding-right: 15%;
+    
+    }
+    .desc-value{
+        padding-left:10%;
+        width:70%;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .container{
+        width:100%;
+        border:1px solid rgb(61, 58, 58);
+        margin: auto;
+        color:black;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 30px;
+    }
+    table,tr,th,td{
+        margin:0px;
+        padding: 0px;
+    }
+    tr,td{
+        text-align:none ;
+    }
+}
